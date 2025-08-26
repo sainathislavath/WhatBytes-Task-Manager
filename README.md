@@ -1,12 +1,33 @@
-# React + Vite
+# E-Commerce React Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive e-commerce application built with React, featuring a dark theme with amber accents and a comprehensive shopping experience.
 
-Currently, two official plugins are available:
+## Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a full-featured e-commerce application that provides users with a seamless shopping experience. The application includes product browsing, detailed product views, shopping cart functionality, and a visually appealing interface designed with a dark theme and amber color accents.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- <b>Product Catalog:</b> Browse through a wide range of products with detailed information
+- <b>Product Filtering:</b> Filter products by category and price range
+- <b>Product Search:</b> Search for products by name or description
+- <b>Product Details:</b> View detailed product information including images, descriptions, and specifications
+- <b>Shopping Cart:</b> Add products to cart, adjust quantities, and view cart summary
+- <b>Responsive Design:</b> Fully responsive layout that works on all devices
+- <b>Dark Theme:</b> Modern dark theme with amber color accents for an elegant look
+- <b>Product Recommendations:</b> Related products section on product detail pages
+- <b>Interactive UI Elements:</b> Smooth animations and transitions for better user experience
+
+## Technology Stack
+
+- <b>Frontend:</b> React 18+
+- <b>Routing:</b> React Router DOM
+- <b>State Management:</b> React Context API
+- <b>Styling:</b> Tailwind CSS
+- <b>Icons:</b> Lucide React
+- <b>Animations:</b> Framer Motion
+- <b>Build Tool:</b> Vite
+
+## Live Demo
+
+Check out the live demo of the Application [here](https://whatbytes-task-manager.vercel.app/)
