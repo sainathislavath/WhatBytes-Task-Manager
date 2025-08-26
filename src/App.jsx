@@ -9,7 +9,7 @@ function App() {
   return (
     <CartProvider>
       <Router>
-        <div className="min-h-screen flex flex-col">
+        <div className="min-h-screen w-screen flex flex-col">
           <Routes>
             <Route path="/" element={<HomePage />} />
             <Route path="/product/:id" element={<ProductDetailPage />} />

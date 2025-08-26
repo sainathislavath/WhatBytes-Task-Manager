@@ -34,14 +34,14 @@ const ProductImageCarousel = ({ images }) => {
         <>
           <button
             onClick={goToPrevious}
-            className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white bg-opacity-50 rounded-full p-2 hover:bg-opacity-75 transition-colors"
+            className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-opacity-50 rounded-full p-2 hover:bg-opacity-75 transition-colors"
           >
             <ChevronLeft size={24} />
           </button>
 
           <button
             onClick={goToNext}
-            className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-white bg-opacity-50 rounded-full p-2 hover:bg-opacity-75 transition-colors"
+            className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-opacity-50 rounded-full p-2 hover:bg-opacity-75 transition-colors"
           >
             <ChevronRight size={24} />
           </button>
